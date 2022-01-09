@@ -12,16 +12,29 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_centerInParent="true"
-        android:src="@drawable/logo" />
+        android:src="@drawable/logosplash"
+        android:requiresFadingEdge="horizontal"/>
 
     <ProgressBar
-
+        android:id="@+id/progBar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="58dp"
         android:progressTint="@color/black" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="693dp"
+        android:layout_marginBottom="19dp"
+        android:text="Powered By HaloDos @2022"
+        android:textAlignment="center"
+        android:textColor="#7A171717" />
 
 
 </RelativeLayout>

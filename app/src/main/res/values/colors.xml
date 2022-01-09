@@ -9,4 +9,5 @@
     <color name="white">#FFFFFFFF</color>
     <color name="statBar">#FFD700</color>
     <color name="statBar2">#30FFFFFF</color>
+    <drawable name="statimg">@drawable/bgdoodle</drawable>
 </resources>

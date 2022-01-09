@@ -3,8 +3,21 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/JC/TugasAkhirJC/app/src/main/res/drawable/defaul_dot.xml" value="0.1828125" />
+        <entry key="..\:/JC/TugasAkhirJC/app/src/main/res/drawable/default_dot.xml" value="0.1828125" />
+        <entry key="..\:/JC/TugasAkhirJC/app/src/main/res/drawable/faadein.xml" value="0.18125" />
+        <entry key="..\:/JC/TugasAkhirJC/app/src/main/res/drawable/ic_launcher_background.xml" value="0.18125" />
+        <entry key="..\:/JC/TugasAkhirJC/app/src/main/res/drawable/tab_selector.xml" value="0.1828125" />
+        <entry key="..\:/JC/TugasAkhirJC/app/src/main/res/layout/activity_forgot.xml" value="0.37962962962962965" />
+        <entry key="..\:/JC/TugasAkhirJC/app/src/main/res/layout/activity_login.xml" value="0.67" />
+        <entry key="..\:/JC/TugasAkhirJC/app/src/main/res/layout/activity_login_detail.xml" value="0.2" />
         <entry key="..\:/JC/TugasAkhirJC/app/src/main/res/layout/activity_main.xml" value="0.33" />
-        <entry key="..\:/JC/TugasAkhirJC/app/src/main/res/layout/activity_splash_screen.xml" value="0.16" />
+        <entry key="..\:/JC/TugasAkhirJC/app/src/main/res/layout/activity_sign_up.xml" value="0.25" />
+        <entry key="..\:/JC/TugasAkhirJC/app/src/main/res/layout/activity_splash_screen.xml" value="0.22" />
+        <entry key="..\:/JC/TugasAkhirJC/app/src/main/res/layout/fadein.xml" value="0.13179347826086957" />
+        <entry key="..\:/JC/TugasAkhirJC/app/src/main/res/layout/fragment_why_us.xml" value="0.13858695652173914" />
+        <entry key="..\:/JC/TugasAkhirJC/app/src/main/res/layout/image_item_view.xml" value="0.14628623188405798" />
+        <entry key="..\:/JC/TugasAkhirJC/app/src/main/res/layout/selected_dot.xml" value="0.13854166666666667" />
       </map>
     </option>
   </component>

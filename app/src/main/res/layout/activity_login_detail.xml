@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".LoginDetailAct">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="149dp"
+        android:layout_height="128dp"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-40dp"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif-black"
+        android:text=" Login "
+        android:textSize="30dp" />
+
+    <com.google.android.material.button.MaterialButtonToggleGroup
+        android:id="@+id/togelGroupLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        app:singleSelection="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:id="@+id/btnStudent"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:text="Student" />
+
+        <Button
+            android:id="@+id/btnAdvisor"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:text="Adivsor" />
+
+    </com.google.android.material.button.MaterialButtonToggleGroup>
+
+    <EditText
+        android:id="@+id/inputEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="20dp"
+        android:background="@android:drawable/editbox_background"
+        android:drawableEnd="@android:drawable/ic_dialog_email"
+        android:ems="10"
+        android:hint="  Email"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/inputPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:background="@android:drawable/editbox_background"
+        android:drawableEnd="@android:drawable/ic_lock_idle_lock"
+        android:ems="10"
+        android:hint="  Password"
+        android:inputType="textPassword"
+        android:minHeight="48dp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="176dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:layout_marginStart="10dp"
+            android:text="Remember me" />
+
+        <TextView
+            android:id="@+id/forgotPass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="15dp"
+            android:textAlignment="textEnd"
+            android:fontFamily="sans-serif-black"
+            android:onClick="forgotText"
+            android:text="Forgot Password?"
+            android:layout_weight="0.5"
+            android:textSize="14sp"
+            android:typeface="sans" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnStarted"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:backgroundTint="#FFA500"
+        android:layout_marginTop="-10dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Login"
+        android:textAllCaps="false"
+        android:textColor="#050505"
+        android:textSize="20sp"
+        android:textStyle="normal" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/donthaveacc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="Dont have an account?"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/signUp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:fontFamily="sans-serif-black"
+            android:minHeight="48dp"
+            android:onClick="textOnclicked"
+            android:text="Sign Up"
+            android:textSize="18sp"
+            android:typeface="normal" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" HaloDos "
+        android:layout_marginTop="-30dp"
+        android:textAlignment="center"
+        android:textColor="#7A171717" />
+
+
+</LinearLayout>
