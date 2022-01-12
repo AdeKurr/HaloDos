@@ -23,4 +23,10 @@
         <item>What is your pet name</item>
     </string-array>
 
+
+    <!--    //buat  bot bar-->
+    <string name="schedule">Schedule</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+
 </resources>

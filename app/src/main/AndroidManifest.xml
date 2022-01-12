@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HaloDos">
         <activity
+            android:name=".BookingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DetailDosenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SearchActivity"
+            android:exported="false" />
+        <activity
             android:name=".ForgotActivity"
             android:exported="false" />
         <activity
@@ -18,7 +27,6 @@
         <activity
             android:name=".LoginDetailAct"
             android:exported="false" />
-
         <activity
             android:name=".LoginActivity"
             android:exported="false" />
