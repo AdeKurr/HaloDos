@@ -7,6 +7,7 @@
         <entry key="..\:/JC/TugasAkhirJC/app/src/main/res/drawable/default_dot.xml" value="0.1828125" />
         <entry key="..\:/JC/TugasAkhirJC/app/src/main/res/drawable/faadein.xml" value="0.18125" />
         <entry key="..\:/JC/TugasAkhirJC/app/src/main/res/drawable/ic_launcher_background.xml" value="0.18125" />
+        <entry key="..\:/JC/TugasAkhirJC/app/src/main/res/drawable/rounded_botbar_div.xml" value="0.13958333333333334" />
         <entry key="..\:/JC/TugasAkhirJC/app/src/main/res/drawable/rounded_div.xml" value="0.1796875" />
         <entry key="..\:/JC/TugasAkhirJC/app/src/main/res/drawable/tab_selector.xml" value="0.1828125" />
         <entry key="..\:/JC/TugasAkhirJC/app/src/main/res/layout/activity_booking.xml" value="0.25" />
@@ -14,8 +15,8 @@
         <entry key="..\:/JC/TugasAkhirJC/app/src/main/res/layout/activity_forgot.xml" value="0.37962962962962965" />
         <entry key="..\:/JC/TugasAkhirJC/app/src/main/res/layout/activity_login.xml" value="0.25" />
         <entry key="..\:/JC/TugasAkhirJC/app/src/main/res/layout/activity_login_detail.xml" value="0.22" />
-        <entry key="..\:/JC/TugasAkhirJC/app/src/main/res/layout/activity_main.xml" value="0.2955112219451372" />
-        <entry key="..\:/JC/TugasAkhirJC/app/src/main/res/layout/activity_search.xml" value="0.18" />
+        <entry key="..\:/JC/TugasAkhirJC/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/JC/TugasAkhirJC/app/src/main/res/layout/activity_search.xml" value="0.33" />
         <entry key="..\:/JC/TugasAkhirJC/app/src/main/res/layout/activity_sign_up.xml" value="0.25" />
         <entry key="..\:/JC/TugasAkhirJC/app/src/main/res/layout/activity_splash_screen.xml" value="0.22" />
         <entry key="..\:/JC/TugasAkhirJC/app/src/main/res/layout/fadein.xml" value="0.13179347826086957" />

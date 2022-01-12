@@ -2,32 +2,34 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:fitsSystemWindows="true"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@drawable/bgdoodle"
+    android:background="@color/white"
     tools:context=".MainActivity">
 
     <LinearLayout
-        android:id="@+id/headerSearch"
+        android:id="@+id/header"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="100dp"
         android:orientation="vertical"
-        android:background="#FCF6D5">
+        android:background="@drawable/rounded_div"
+        >
 
         <TextView
-            android:id="@+id/greetingsSearch"
+            android:id="@+id/greetings"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="40dp"
             android:fontFamily="sans-serif-black"
             android:text="Welcome,"
             android:textSize="14sp"
             android:typeface="normal" />
 
         <TextView
-            android:id="@+id/usernameOnSearch"
+            android:id="@+id/username"
             android:layout_width="143dp"
             android:layout_height="38dp"
             android:layout_marginStart="20dp"
@@ -118,7 +120,6 @@
                     android:id="@+id/linearLayout3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="#FCF6D5"
                     android:orientation="horizontal"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.358"
@@ -131,6 +132,7 @@
                         android:layout_height="73dp"
                         android:layout_marginStart="20dp"
                         android:layout_marginTop="5dp"
+                        android:backgroundTint="#D9D5D5"
                         android:layout_marginBottom="5dp"
                         app:cardCornerRadius="20dp" />
 
@@ -140,6 +142,7 @@
                         android:layout_height="73dp"
                         android:layout_marginStart="20dp"
                         android:layout_marginTop="5dp"
+                        android:backgroundTint="#D9D5D5"
                         android:layout_marginBottom="5dp"
                         app:cardCornerRadius="20dp">
 
@@ -151,6 +154,7 @@
                         android:layout_height="73dp"
                         android:layout_marginStart="20dp"
                         android:layout_marginTop="5dp"
+                        android:backgroundTint="#D9D5D5"
                         android:layout_marginBottom="5dp"
                         app:cardCornerRadius="20dp">
 
@@ -160,6 +164,7 @@
                         android:id="@+id/topCate4"
                         android:layout_width="92dp"
                         android:layout_height="73dp"
+                        android:backgroundTint="#D9D5D5"
                         android:layout_marginStart="20dp"
                         android:layout_marginTop="5dp"
                         android:layout_marginBottom="5dp"
@@ -173,6 +178,7 @@
                         android:layout_height="73dp"
                         android:layout_marginStart="20dp"
                         android:layout_marginTop="5dp"
+                        android:backgroundTint="#D9D5D5"
                         android:layout_marginBottom="5dp"
                         app:cardCornerRadius="20dp">
 
@@ -206,7 +212,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:scrollbars="horizontal"
-                android:background="#FCF6D5"
                 android:orientation="vertical"
                 android:layout_marginTop="10dp">
 
@@ -372,7 +377,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="-45dp"
-        android:background="@color/statBar"
+        android:background="@drawable/rounded_botbar_div"
         android:orientation="horizontal">
 
         <Button
