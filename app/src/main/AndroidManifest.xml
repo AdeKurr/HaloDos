@@ -14,7 +14,8 @@
             android:exported="false" />
         <activity
             android:name=".DetailDosenActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:parentActivityName=".SearchActivity"/>
         <activity
             android:name=".SearchActivity"
             android:exported="false" />
@@ -34,7 +35,7 @@
         <activity
             android:name=".ProfileUserActivity"
             android:exported="true"
-            android:parentActivityName="com.juaracoding.halodos.MainActivity">
+            android:parentActivityName=".DetailDosenActivity">
         </activity>
         <activity
             android:name=".ForgotActivity"

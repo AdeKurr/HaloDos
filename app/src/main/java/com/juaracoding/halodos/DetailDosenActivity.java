@@ -1,6 +1,8 @@
 package com.juaracoding.halodos;
 
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
 import android.content.Intent;
 import android.os.Build;
@@ -15,6 +17,10 @@ public class DetailDosenActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail_dosen);
+        Toolbar toolbar = findViewById(R.id.toolbardetaildosen);
+        setSupportActionBar(toolbar);
+        ActionBar ab = getSupportActionBar();
+        ab.setDisplayHomeAsUpEnabled(true);
 
         //transparent statbar
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {

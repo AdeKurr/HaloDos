@@ -9,35 +9,14 @@
     android:background="@drawable/bgdoodle"
     tools:context=".DetailDosenActivity">
 
-    <LinearLayout
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbardetaildosen"
         android:layout_width="match_parent"
-        android:layout_height="80dp"
-        android:background="#f1f1f1"
-        android:orientation="horizontal"
-        >
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:layout_marginBottom="10dp"
-            android:background="?attr/homeAsUpIndicator"
-            android:minWidth="32dp"
-            android:minHeight="48dp"
-            android:onClick="balikKehome"
-            android:textAlignment="center"
-            android:textSize="24sp" />
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="30dp"
-            android:layout_marginBottom="10dp"
-            android:layout_marginStart="-20dp"
-            android:textSize="24sp"
-            android:layout_weight="0.0081"
-            android:text="Advisors Profile"
-            android:textAlignment="center"/>
-    </LinearLayout>
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:elevation="10dp"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
 
     <LinearLayout
         android:layout_width="match_parent"
