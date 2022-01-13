@@ -56,7 +56,7 @@ MaterialButtonToggleGroup materialButtonToggleGroup;
     }
 
     public void textOnclicked(View view) {
-        Intent cabut = new Intent(SignUpActivity.this,LoginDetailAct.class);
+        Intent cabut = new Intent(SignUpActivity.this, LoginActivity.class);
         Toast.makeText(getApplicationContext(),"Selamat Datang dari sign IN ke login", Toast.LENGTH_LONG).show();
         startActivity(cabut);
     }
@@ -65,11 +65,11 @@ MaterialButtonToggleGroup materialButtonToggleGroup;
 
 //        if (btnAdvisor.hasFocusable() == true && btnStudent.hasFocusable() != true){
 //            Toast.makeText(getApplicationContext(),"Jenis akun advisor, ke login",Toast.LENGTH_LONG).show();
-////            Intent dosKelogin = new Intent(SignUpActivity.this,LoginDetailAct.class);
+////            Intent dosKelogin = new Intent(SignUpActivity.this,LoginActivity.class);
 ////            startActivity(dosKelogin);
 //        } else if (btnStudent.hasFocusable() == true && btnAdvisor.hasFocusable() != true){
 //            Toast.makeText(getApplicationContext(),"Jenis akun student, ke login",Toast.LENGTH_LONG).show();
-////            Intent stdnKelogin = new Intent(SignUpActivity.this,LoginDetailAct.class);
+////            Intent stdnKelogin = new Intent(SignUpActivity.this,LoginActivity.class);
 ////            startActivity(stdnKelogin);
 //        }
 ////        else if (btnStudent.isActivated() && btnAdvisor.isActivated()){

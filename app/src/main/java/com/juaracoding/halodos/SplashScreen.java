@@ -2,12 +2,9 @@ package com.juaracoding.halodos;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.app.ActionBar;
-import android.app.StatusBarManager;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
-import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 
@@ -35,7 +32,7 @@ public class SplashScreen extends AppCompatActivity {
             @Override
             public void run() {
                 // to do auto generated stub
-                Intent cus = new Intent(SplashScreen.this,LoginActivity.class);
+                Intent cus = new Intent(SplashScreen.this, WelcomeActivity.class);
                 startActivity(cus);
 
                 // jeda setelah splashscren

@@ -2,43 +2,23 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:fitsSystemWindows="true"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
     android:orientation="vertical"
     tools:context=".BookingActivity">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="80dp"
-        android:background="#f1f1f1"
-        android:orientation="horizontal"
-        >
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:layout_marginBottom="10dp"
-            android:background="?attr/homeAsUpIndicator"
-            android:minWidth="32dp"
-            android:minHeight="48dp"
-            android:onClick="balikKeDetailDos"
-            android:textAlignment="center"
-            android:textSize="24sp" />
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="30dp"
-            android:layout_marginBottom="10dp"
-            android:layout_marginStart="-20dp"
-            android:textSize="24sp"
-            android:layout_weight="0.0081"
-            android:text="Booking"
-            android:textAlignment="center"/>
-    </LinearLayout>
-<LinearLayout
+     <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarbooking"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:elevation="10dp"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+    <LinearLayout
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_marginTop="10dp"
@@ -50,7 +30,7 @@
         android:layout_marginStart="20dp"
         android:layout_weight="0.1744"
         android:src="@drawable/splash"
-        app:civ_border_color="#FFA500"
+        app:civ_border_color="@color/white"
         app:civ_border_width="3dp" />
     <LinearLayout
         android:layout_width="match_parent"
@@ -182,52 +162,66 @@
         </LinearLayout>
     </HorizontalScrollView>
 
-    <LinearLayout
-        android:id="@+id/tanggalTimeDiv"
+    <HorizontalScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:background="@drawable/rounded_div"
-        android:orientation="vertical">
+        android:layout_height="wrap_content">
 
-        <com.google.android.material.button.MaterialButtonToggleGroup
-            android:id="@+id/togelGroupBookDateTime"
+        <LinearLayout
+            android:id="@+id/tanggalTimeDiv"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="10dp"
-            android:layout_marginTop="20dp"
-            android:layout_marginBottom="20dp"
-            app:singleSelection="true">
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_div"
+            android:orientation="vertical">
 
-            <Button
-                android:id="@+id/btndatetime1"
-                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
-                android:layout_width="wrap_content"
+            <com.google.android.material.button.MaterialButtonToggleGroup
+                android:id="@+id/togelGroupBookDateTime"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="0.02"
-                android:text="16:00 - 17:00"
-                android:textAllCaps="false" />
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                app:singleSelection="true">
 
-            <Button
-                android:id="@+id/btndatetime2"
-                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="0.02"
-                android:text="17:00 - 18:00"
-                android:textAllCaps="false" />
+                <Button
+                    android:id="@+id/btndatetime1"
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.02"
+                    android:text="16:00 - 17:00"
+                    android:textAllCaps="false" />
 
-            <Button
-                android:id="@+id/btndatetime3"
-                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="2"
-                android:text="18:00 - 19:00"
-                android:textAllCaps="false" />
+                <Button
+                    android:id="@+id/btndatetime2"
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.02"
+                    android:text="17:00 - 18:00"
+                    android:textAllCaps="false" />
 
-        </com.google.android.material.button.MaterialButtonToggleGroup>
-    </LinearLayout>
+                <Button
+                    android:id="@+id/btndatetime3"
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="18:00 - 19:00"
+                    android:textAllCaps="false" />
+                <Button
+                    android:id="@+id/btndatetime4"
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="19:00 - 20:00"
+                    android:textAllCaps="false" />
+
+            </com.google.android.material.button.MaterialButtonToggleGroup>
+        </LinearLayout>
+
+    </HorizontalScrollView>
 
     <TextView
         android:layout_width="match_parent"
@@ -261,12 +255,12 @@
         android:onClick="btnBookDos"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="50dp"
         android:layout_marginStart="30dp"
         android:layout_marginEnd="30dp"
         android:backgroundTint="#FFA500"
         android:fontFamily="sans-serif-medium"
-        android:text="Book"
+        android:text="Book now"
         android:textAllCaps="false"
         android:textColor="#050505"
         android:textSize="20sp"

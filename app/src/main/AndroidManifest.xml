@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HaloDos">
         <activity
+            android:name=".MainAdvisorsActivity"
+            android:exported="false" />
+        <activity
             android:name=".BookingActivity"
             android:exported="false" />
         <activity
@@ -44,10 +47,10 @@
             android:name=".SignUpActivity"
             android:exported="false" />
         <activity
-            android:name=".LoginDetailAct"
+            android:name=".LoginActivity"
             android:exported="false" />
         <activity
-            android:name=".LoginActivity"
+            android:name=".WelcomeActivity"
             android:exported="false" />
         <activity
             android:name=".SplashScreen"

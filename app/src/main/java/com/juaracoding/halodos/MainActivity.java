@@ -10,9 +10,6 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Button;
 
-import in.mayanknagwanshi.imagepicker.ImageSelectActivity;
-
-
 public class MainActivity extends AppCompatActivity {
     Button btnSearch, btnProfile;
     @Override
