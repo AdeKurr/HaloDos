@@ -17,7 +17,6 @@ public class SplashScreen extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
         //MULAI KODING
 
         requestWindowFeature(Window.FEATURE_NO_TITLE);
@@ -26,7 +25,11 @@ public class SplashScreen extends AppCompatActivity {
         // KODING
 
         setContentView(R.layout.activity_splash_screen);
+    };
 
+    @Override
+    protected void onResume() {
+        super.onResume();
 
         new Handler().postDelayed(new Runnable() {
             @Override
@@ -44,7 +47,5 @@ public class SplashScreen extends AppCompatActivity {
                 //auto
             }
         },LamaTampilSplash);
-
-    };
-
+    }
 }

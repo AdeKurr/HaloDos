@@ -10,15 +10,17 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Button;
 
+import in.mayanknagwanshi.imagepicker.ImageSelectActivity;
+
 
 public class MainActivity extends AppCompatActivity {
-    Button btnSearch;
+    Button btnSearch, btnProfile;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         btnSearch = findViewById(R.id.btnSearch);
-
+        btnProfile = findViewById(R.id.btnprofile);
         //transparent statbar
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
             Window w = getWindow();
@@ -33,7 +35,19 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        btnProfile.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), ProfileUserActivity.class);
+                startActivity(intent);
+                finish();
+            }
+        });
     }
+
+
+
 
 
     public void textArrowOnclicked(View view) {

@@ -19,6 +19,24 @@
             android:name=".SearchActivity"
             android:exported="false" />
         <activity
+            android:name=".EditProfileAdvisorActivity"
+            android:exported="true"
+            android:parentActivityName="com.juaracoding.halodos.ProfileAdvisorActivity"/>
+        <activity
+            android:name=".ProfileAdvisorActivity"
+            android:exported="true"
+            android:parentActivityName="com.juaracoding.halodos.MainActivity">
+        </activity>
+        <activity
+            android:name=".EditProfileUserActivity"
+            android:exported="true"
+            android:parentActivityName="com.juaracoding.halodos.ProfileUserActivity"/>
+        <activity
+            android:name=".ProfileUserActivity"
+            android:exported="true"
+            android:parentActivityName="com.juaracoding.halodos.MainActivity">
+        </activity>
+        <activity
             android:name=".ForgotActivity"
             android:exported="false" />
         <activity
@@ -32,7 +50,7 @@
             android:exported="false" />
         <activity
             android:name=".SplashScreen"
-            android:exported="true">
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
