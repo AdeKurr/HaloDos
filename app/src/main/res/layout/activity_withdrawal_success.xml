@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bgdoodle"
+    tools:context=".WithdrawalSuccessActivity">
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Withdrawal Successful"
+       android:layout_marginTop="58dp"
+       android:textAlignment="center"
+       android:textSize="27sp"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logofrmfigma"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your fund withdrawal was successfully processed,
+wait for verification maximum funds 1 x 24 hours."
+        android:layout_margin="10dp"
+        android:textAlignment="center"
+        android:textSize="16sp"/>
+
+    <View
+        android:id="@+id/divider1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:layout_margin="10dp"
+        android:textStyle="bold"
+        android:text="Balance withrawal details"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_margin="10dp"
+        android:textColor="@color/buabu"
+        android:text="Destination account"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-35dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_bank_bca_foreground"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="PT. CENTRAL BANK ASIA (BCA)"
+                android:layout_weight="1"
+                android:textSize="16sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#C1BABA"
+                android:text="Kiana stanton **7438"
+                android:textSize="14sp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total Withdrawals"
+        android:textSize="16sp"
+        android:layout_marginTop="-10dp"
+        android:layout_marginStart="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rp. 50.000,-"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="20dp"/>
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
+    <Button
+        android:id="@+id/btnReturn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="170dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:backgroundTint="@color/white"
+        android:fontFamily="sans-serif-medium"
+        android:text="Return"
+        android:textAllCaps="false"
+        android:textColor="#FFA500"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        app:cornerRadius="5dp"
+        app:strokeColor="#FFA500"
+        app:strokeWidth="1dp" />
+
+</LinearLayout>

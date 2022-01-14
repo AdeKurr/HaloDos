@@ -3,59 +3,45 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/JC/TugasAkhirJC/app/src/main/res/drawable/border_button.xml" value="0.22" />
         <entry key="..\:/JC/TugasAkhirJC/app/src/main/res/drawable/defaul_dot.xml" value="0.1828125" />
         <entry key="..\:/JC/TugasAkhirJC/app/src/main/res/drawable/default_dot.xml" value="0.1828125" />
         <entry key="..\:/JC/TugasAkhirJC/app/src/main/res/drawable/faadein.xml" value="0.18125" />
+        <entry key="..\:/JC/TugasAkhirJC/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.1796875" />
         <entry key="..\:/JC/TugasAkhirJC/app/src/main/res/drawable/ic_launcher_background.xml" value="0.18125" />
+        <entry key="..\:/JC/TugasAkhirJC/app/src/main/res/drawable/ic_money_foreground.xml" value="0.22314814814814815" />
+        <entry key="..\:/JC/TugasAkhirJC/app/src/main/res/drawable/rounded_botbar_div.xml" value="0.13958333333333334" />
+        <entry key="..\:/JC/TugasAkhirJC/app/src/main/res/drawable/rounded_div.xml" value="0.1796875" />
+        <entry key="..\:/JC/TugasAkhirJC/app/src/main/res/drawable/rounded_div_15radius.xml" value="0.240625" />
         <entry key="..\:/JC/TugasAkhirJC/app/src/main/res/drawable/tab_selector.xml" value="0.1828125" />
+        <entry key="..\:/JC/TugasAkhirJC/app/src/main/res/layout/activity_booking.xml" value="0.25" />
+        <entry key="..\:/JC/TugasAkhirJC/app/src/main/res/layout/activity_booking_result.xml" value="0.10916919959473151" />
+        <entry key="..\:/JC/TugasAkhirJC/app/src/main/res/layout/activity_detail_dosen.xml" value="0.25" />
+        <entry key="..\:/JC/TugasAkhirJC/app/src/main/res/layout/activity_detail_saldo.xml" value="0.33" />
         <entry key="..\:/JC/TugasAkhirJC/app/src/main/res/layout/activity_forgot.xml" value="0.37962962962962965" />
-        <entry key="..\:/JC/TugasAkhirJC/app/src/main/res/layout/activity_login.xml" value="0.67" />
-        <entry key="..\:/JC/TugasAkhirJC/app/src/main/res/layout/activity_login_detail.xml" value="0.2" />
-        <entry key="..\:/JC/TugasAkhirJC/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/JC/TugasAkhirJC/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/JC/TugasAkhirJC/app/src/main/res/layout/activity_login_detail.xml" value="0.22" />
+        <entry key="..\:/JC/TugasAkhirJC/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/JC/TugasAkhirJC/app/src/main/res/layout/activity_main_advisors.xml" value="0.25" />
+        <entry key="..\:/JC/TugasAkhirJC/app/src/main/res/layout/activity_profile_advisor.xml" value="0.11594202898550725" />
+        <entry key="..\:/JC/TugasAkhirJC/app/src/main/res/layout/activity_profile_user.xml" value="0.11594202898550725" />
+        <entry key="..\:/JC/TugasAkhirJC/app/src/main/res/layout/activity_riwayat_transaksi.xml" value="0.2879640044994376" />
+        <entry key="..\:/JC/TugasAkhirJC/app/src/main/res/layout/activity_search.xml" value="0.3611111111111111" />
         <entry key="..\:/JC/TugasAkhirJC/app/src/main/res/layout/activity_sign_up.xml" value="0.25" />
         <entry key="..\:/JC/TugasAkhirJC/app/src/main/res/layout/activity_splash_screen.xml" value="0.22" />
+        <entry key="..\:/JC/TugasAkhirJC/app/src/main/res/layout/activity_withdraw_confirm.xml" value="0.25" />
+        <entry key="..\:/JC/TugasAkhirJC/app/src/main/res/layout/activity_withdrawal.xml" value="0.2" />
+        <entry key="..\:/JC/TugasAkhirJC/app/src/main/res/layout/activity_withdrawal_success.xml" value="0.25" />
         <entry key="..\:/JC/TugasAkhirJC/app/src/main/res/layout/fadein.xml" value="0.13179347826086957" />
+        <entry key="..\:/JC/TugasAkhirJC/app/src/main/res/layout/fragment_dashboard.xml" value="0.12681159420289856" />
+        <entry key="..\:/JC/TugasAkhirJC/app/src/main/res/layout/fragment_profile.xml" value="0.33" />
+        <entry key="..\:/JC/TugasAkhirJC/app/src/main/res/layout/fragment_schedule.xml" value="0.12681159420289856" />
         <entry key="..\:/JC/TugasAkhirJC/app/src/main/res/layout/fragment_why_us.xml" value="0.13858695652173914" />
         <entry key="..\:/JC/TugasAkhirJC/app/src/main/res/layout/image_item_view.xml" value="0.14628623188405798" />
         <entry key="..\:/JC/TugasAkhirJC/app/src/main/res/layout/selected_dot.xml" value="0.13854166666666667" />
-        <entry key="..\:/Users/Ade Kurniawan/AndroidStudioProjects/HaloDos/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.287109375" />
-        <entry key="..\:/Users/Ade Kurniawan/AndroidStudioProjects/HaloDos/app/src/main/res/drawable/ic_baseline_account_circle_24.xml" value="0.287109375" />
-        <entry key="..\:/Users/Ade Kurniawan/AndroidStudioProjects/HaloDos/app/src/main/res/drawable/ic_baseline_check_circle_24.xml" value="0.287109375" />
-        <entry key="..\:/Users/Ade Kurniawan/AndroidStudioProjects/HaloDos/app/src/main/res/drawable/ic_baseline_explore_24.xml" value="0.287109375" />
-        <entry key="..\:/Users/Ade Kurniawan/AndroidStudioProjects/HaloDos/app/src/main/res/drawable/ic_baseline_list_alt_24.xml" value="0.287109375" />
-        <entry key="..\:/Users/Ade Kurniawan/AndroidStudioProjects/HaloDos/app/src/main/res/drawable/ic_home.xml" value="0.287109375" />
-        <entry key="..\:/Users/Ade Kurniawan/AndroidStudioProjects/HaloDos/app/src/main/res/drawable/ic_home_foreground.xml" value="0.287109375" />
-        <entry key="..\:/Users/Ade Kurniawan/AndroidStudioProjects/HaloDos/app/src/main/res/drawable/ic_launcher_background.xml" value="0.287109375" />
-        <entry key="..\:/Users/Ade Kurniawan/AndroidStudioProjects/HaloDos/app/src/main/res/drawable/ic_profile_foreground.xml" value="0.287109375" />
-        <entry key="..\:/Users/Ade Kurniawan/AndroidStudioProjects/HaloDos/app/src/main/res/drawable/ic_schedule_foreground.xml" value="0.287109375" />
-        <entry key="..\:/Users/Ade Kurniawan/AndroidStudioProjects/HaloDos/app/src/main/res/layout/BookingResultActivity.xml" value="0.275" />
-        <entry key="..\:/Users/Ade Kurniawan/AndroidStudioProjects/HaloDos/app/src/main/res/layout/activity_booking.xml" value="0.22" />
-        <entry key="..\:/Users/Ade Kurniawan/AndroidStudioProjects/HaloDos/app/src/main/res/layout/activity_booking_result.xml" value="0.12" />
-        <entry key="..\:/Users/Ade Kurniawan/AndroidStudioProjects/HaloDos/app/src/main/res/layout/activity_dashboard.xml" value="0.22" />
-        <entry key="..\:/Users/Ade Kurniawan/AndroidStudioProjects/HaloDos/app/src/main/res/layout/activity_detail_dosen.xml" value="0.15390625" />
-        <entry key="..\:/Users/Ade Kurniawan/AndroidStudioProjects/HaloDos/app/src/main/res/layout/activity_edit_profile_advisor.xml" value="0.275" />
-        <entry key="..\:/Users/Ade Kurniawan/AndroidStudioProjects/HaloDos/app/src/main/res/layout/activity_edit_profile_user.xml" value="0.1" />
-        <entry key="..\:/Users/Ade Kurniawan/AndroidStudioProjects/HaloDos/app/src/main/res/layout/activity_forgot.xml" value="0.2957427536231884" />
-        <entry key="..\:/Users/Ade Kurniawan/AndroidStudioProjects/HaloDos/app/src/main/res/layout/activity_halaman_pembayaran.xml" value="0.2" />
-        <entry key="..\:/Users/Ade Kurniawan/AndroidStudioProjects/HaloDos/app/src/main/res/layout/activity_home.xml" value="0.15390625" />
-        <entry key="..\:/Users/Ade Kurniawan/AndroidStudioProjects/HaloDos/app/src/main/res/layout/activity_login.xml" value="0.25" />
-        <entry key="..\:/Users/Ade Kurniawan/AndroidStudioProjects/HaloDos/app/src/main/res/layout/activity_login_detail.xml" value="0.14" />
-        <entry key="..\:/Users/Ade Kurniawan/AndroidStudioProjects/HaloDos/app/src/main/res/layout/activity_main.xml" value="0.18" />
-        <entry key="..\:/Users/Ade Kurniawan/AndroidStudioProjects/HaloDos/app/src/main/res/layout/activity_main2.xml" value="0.15390625" />
-        <entry key="..\:/Users/Ade Kurniawan/AndroidStudioProjects/HaloDos/app/src/main/res/layout/activity_payment_successful.xml" value="0.275" />
-        <entry key="..\:/Users/Ade Kurniawan/AndroidStudioProjects/HaloDos/app/src/main/res/layout/activity_profile_advisor.xml" value="0.275" />
-        <entry key="..\:/Users/Ade Kurniawan/AndroidStudioProjects/HaloDos/app/src/main/res/layout/activity_profile_user.xml" value="0.18" />
-        <entry key="..\:/Users/Ade Kurniawan/AndroidStudioProjects/HaloDos/app/src/main/res/layout/activity_search.xml" value="0.275" />
-        <entry key="..\:/Users/Ade Kurniawan/AndroidStudioProjects/HaloDos/app/src/main/res/layout/activity_sign_up.xml" value="0.2957427536231884" />
-        <entry key="..\:/Users/Ade Kurniawan/AndroidStudioProjects/HaloDos/app/src/main/res/layout/activity_splash_screen.xml" value="0.2957427536231884" />
-        <entry key="..\:/Users/Ade Kurniawan/AndroidStudioProjects/HaloDos/app/src/main/res/layout/content_profile_user.xml" value="0.2826086956521739" />
-        <entry key="..\:/Users/Ade Kurniawan/AndroidStudioProjects/HaloDos/app/src/main/res/layout/fragment_first.xml" value="0.2826086956521739" />
-        <entry key="..\:/Users/Ade Kurniawan/AndroidStudioProjects/HaloDos/app/src/main/res/layout/fragment_home.xml" value="0.15390625" />
-        <entry key="..\:/Users/Ade Kurniawan/AndroidStudioProjects/HaloDos/app/src/main/res/layout/fragment_second.xml" value="0.2826086956521739" />
-        <entry key="..\:/Users/Ade Kurniawan/AndroidStudioProjects/HaloDos/app/src/main/res/layout/payment_activity.xml" value="0.1775092936802974" />
-        <entry key="..\:/Users/Ade Kurniawan/AndroidStudioProjects/HaloDos/app/src/main/res/menu/bottom_nav_menu.xml" value="0.275" />
-        <entry key="..\:/Users/Ade Kurniawan/AndroidStudioProjects/HaloDos/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.275" />
-        <entry key="..\:/Users/Ade Kurniawan/AndroidStudioProjects/HaloDos/app/src/main/res/mipmap-anydpi-v26/ic_home.xml" value="0.287109375" />
+        <entry key="..\:/JC/TugasAkhirJC/app/src/main/res/menu/bottom_nav_menu.xml" value="0.25" />
+        <entry key="..\:/JC/TugasAkhirJC/app/src/main/res/menu/bottomnavigation_menu.xml" value="0.16354166666666667" />
+        <entry key="..\:/JC/TugasAkhirJC/app/src/main/res/mipmap-anydpi-v26/ic_home.xml" value="0.12604166666666666" />
       </map>
     </option>
   </component>

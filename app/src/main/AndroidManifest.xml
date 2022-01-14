@@ -10,9 +10,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HaloDos">
         <activity
+            android:name=".WithdrawalSuccessActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WithdrawConfirmActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WithdrawalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RiwayatTransaksiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DetailSaldoActivity"
+            android:exported="false" />
+        <activity
             android:name=".PaymentActivity"
             android:exported="true"
-            android:parentActivityName=".BookingActivity"/>
+            android:parentActivityName=".BookingActivity" />
         <activity
             android:name=".BookingResultActivity"
             android:exported="true"
@@ -29,7 +44,8 @@
             android:parentActivityName=".SearchActivity" />
         <activity
             android:name=".SearchActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".EditProfileAdvisorActivity"
             android:exported="true"
