@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".BookingResultActivity">
+
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
@@ -49,7 +50,8 @@
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:src="@drawable/ic_baseline_check_circle_24" />
+                    android:src="@drawable/ic_baseline_check_circle_24"
+                    tools:ignore="ImageContrastCheck" />
 
             </androidx.cardview.widget.CardView>
 

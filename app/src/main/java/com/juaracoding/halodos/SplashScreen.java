@@ -24,9 +24,7 @@ public class SplashScreen extends AppCompatActivity {
         // KODING
 
         setContentView(R.layout.activity_splash_screen);
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
-            getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR);
-        }
+
     };
 
     @Override
