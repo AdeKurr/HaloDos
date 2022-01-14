@@ -44,7 +44,7 @@
                     android:background="@color/white"
                     android:scaleType="centerCrop"
                     android:onClick="imageClick"
-                    android:src="@drawable/pfpadvisor" />
+                    android:src="@drawable/splash" />
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView

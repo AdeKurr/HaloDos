@@ -21,6 +21,9 @@ private int alamatdaritogel;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+            getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR);
+        }
         materialButtonToggleGroup = findViewById(R.id.togelGroupLogin);
 
         //transparent statbar

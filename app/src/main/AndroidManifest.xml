@@ -10,6 +10,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HaloDos">
         <activity
+            android:name=".PaymentActivity"
+            android:exported="true"
+            android:parentActivityName=".BookingActivity"/>
+        <activity
+            android:name=".BookingResultActivity"
+            android:exported="true"
+            android:parentActivityName=".PaymentActivity" />
+        <activity
             android:name=".MainAdvisorsActivity"
             android:exported="false" />
         <activity
@@ -18,28 +26,26 @@
         <activity
             android:name=".DetailDosenActivity"
             android:exported="false"
-            android:parentActivityName=".SearchActivity"/>
+            android:parentActivityName=".SearchActivity" />
         <activity
             android:name=".SearchActivity"
             android:exported="false" />
         <activity
             android:name=".EditProfileAdvisorActivity"
             android:exported="true"
-            android:parentActivityName="com.juaracoding.halodos.ProfileAdvisorActivity"/>
+            android:parentActivityName=".ProfileAdvisorActivity" />
         <activity
             android:name=".ProfileAdvisorActivity"
             android:exported="true"
-            android:parentActivityName="com.juaracoding.halodos.MainActivity">
-        </activity>
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".EditProfileUserActivity"
             android:exported="true"
-            android:parentActivityName="com.juaracoding.halodos.ProfileUserActivity"/>
+            android:parentActivityName=".ProfileUserActivity" />
         <activity
             android:name=".ProfileUserActivity"
             android:exported="true"
-            android:parentActivityName=".DetailDosenActivity">
-        </activity>
+            android:parentActivityName=".DetailDosenActivity" />
         <activity
             android:name=".ForgotActivity"
             android:exported="false" />
@@ -54,7 +60,7 @@
             android:exported="false" />
         <activity
             android:name=".SplashScreen"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

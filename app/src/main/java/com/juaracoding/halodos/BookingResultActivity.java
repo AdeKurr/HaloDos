@@ -10,38 +10,37 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import in.mayanknagwanshi.imagepicker.ImageSelectActivity;
-
-public class ProfileUserActivity extends AppCompatActivity {
-    Button btnEditProfileUser;
-
+public class BookingResultActivity extends AppCompatActivity {
+Button btnList, btnDashboard;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_profile_user);
+        setContentView(R.layout.activity_booking_result);
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
             getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR);
         }
-        Toolbar toolbar = findViewById(R.id.toolbaruserprofile);
+        Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         ActionBar ab = getSupportActionBar();
         ab.setDisplayHomeAsUpEnabled(true);
 
-        btnEditProfileUser = findViewById(R.id.btneditprofileuser);
+        btnList = findViewById(R.id.myconsultationlist);
+        btnDashboard = findViewById(R.id.mydashboard);
 
-        btnEditProfileUser.setOnClickListener(new View.OnClickListener() {
+//        btnList.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                Intent intent = new Intent(getApplicationContext(), ConsultationList.class);
+//                startActivity(intent);
+//            }
+//        });
+
+        btnDashboard.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), EditProfileUserActivity.class);
+                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
                 startActivity(intent);
             }
         });
-    }
-
-    public void imageClick(View view) {
-        Intent intent = new Intent(getApplicationContext(), ImageSelectActivity.class);
-        intent.putExtra(ImageSelectActivity.FLAG_CAMERA, true);//default is true
-        intent.putExtra(ImageSelectActivity.FLAG_GALLERY, true);//default is true
-        startActivityForResult(intent, 1213);
     }
 }
