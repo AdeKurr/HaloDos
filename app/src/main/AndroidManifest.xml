@@ -10,20 +10,33 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HaloDos">
         <activity
+            android:name=".ConsultingUserListActivity"
+            android:exported="true"
+            android:parentActivityName=".MainAdvisorsActivity"/>
+        <activity
+            android:name=".AdvisorListActivity"
+            android:exported="true"
+            android:parentActivityName=".MainActivity" />
+        <activity
             android:name=".WithdrawalSuccessActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:parentActivityName=".WithdrawConfirmActivity"/>
         <activity
             android:name=".WithdrawConfirmActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:parentActivityName=".WithdrawalActivity"/>
         <activity
             android:name=".WithdrawalActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:parentActivityName=".DetailSaldoActivity"/>
         <activity
             android:name=".RiwayatTransaksiActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:parentActivityName=".DetailSaldoActivity"/>
         <activity
             android:name=".DetailSaldoActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:parentActivityName=".MainAdvisorsActivity"/>
         <activity
             android:name=".PaymentActivity"
             android:exported="true"
@@ -37,7 +50,8 @@
             android:exported="false" />
         <activity
             android:name=".BookingActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:parentActivityName=".MainActivity"/>
         <activity
             android:name=".DetailDosenActivity"
             android:exported="false"

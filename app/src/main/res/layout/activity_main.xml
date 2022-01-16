@@ -345,42 +345,42 @@
 
         </ScrollView>
 
-<!--        <LinearLayout-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:layout_marginTop="-45dp"-->
-<!--            android:background="@drawable/rounded_botbar_div"-->
-<!--            android:orientation="horizontal">-->
+        <!--        <LinearLayout-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_marginTop="-45dp"-->
+        <!--            android:background="@drawable/rounded_botbar_div"-->
+        <!--            android:orientation="horizontal">-->
 
-<!--            <Button-->
-<!--                android:layout_width="wrap_content"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:layout_marginStart="20dp"-->
-<!--                android:background="@mipmap/ic_schedule"-->
-<!--                android:text="Schedule"-->
-<!--                android:textColor="@color/black"-->
-<!--                android:textSize="12sp" />-->
+        <!--            <Button-->
+        <!--                android:layout_width="wrap_content"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:layout_marginStart="20dp"-->
+        <!--                android:background="@mipmap/ic_schedule"-->
+        <!--                android:text="Schedule"-->
+        <!--                android:textColor="@color/black"-->
+        <!--                android:textSize="12sp" />-->
 
-<!--            <Button-->
-<!--                android:layout_width="wrap_content"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:layout_marginStart="20dp"-->
-<!--                android:layout_marginEnd="20dp"-->
-<!--                android:background="@mipmap/ic_home"-->
-<!--                android:text="Home"-->
-<!--                android:textColor="@color/black"-->
-<!--                android:textSize="12sp" />-->
+        <!--            <Button-->
+        <!--                android:layout_width="wrap_content"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:layout_marginStart="20dp"-->
+        <!--                android:layout_marginEnd="20dp"-->
+        <!--                android:background="@mipmap/ic_home"-->
+        <!--                android:text="Home"-->
+        <!--                android:textColor="@color/black"-->
+        <!--                android:textSize="12sp" />-->
 
-<!--            <Button-->
-<!--                android:id="@+id/btnprofile"-->
-<!--                android:layout_width="wrap_content"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:layout_marginEnd="10dp"-->
-<!--                android:background="@mipmap/ic_profile"-->
-<!--                android:text="Profile"-->
-<!--                android:textColor="@color/black"-->
-<!--                android:textSize="12sp" />-->
-<!--        </LinearLayout>-->
+        <!--            <Button-->
+        <!--                android:id="@+id/btnprofile"-->
+        <!--                android:layout_width="wrap_content"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:layout_marginEnd="10dp"-->
+        <!--                android:background="@mipmap/ic_profile"-->
+        <!--                android:text="Profile"-->
+        <!--                android:textColor="@color/black"-->
+        <!--                android:textSize="12sp" />-->
+        <!--        </LinearLayout>-->
 
 
     </LinearLayout>
@@ -391,13 +391,13 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="35dp"
         android:layout_marginBottom="35dp"
-        android:clickable="true"
-        app:maxImageSize="50dp"
-        app:fabCustomSize="60dp"
         android:backgroundTint="@color/gold"
+        android:clickable="true"
+        app:fabCustomSize="60dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:srcCompat="@drawable/ic_baseline_explore_24" />
+        app:maxImageSize="50dp"
+        app:srcCompat="@drawable/ic_baseline_directions_run_24" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fab1"

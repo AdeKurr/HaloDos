@@ -19,8 +19,8 @@ public class MainActivity extends AppCompatActivity {
     Button btnSearch;
     FloatingActionButton fab, fab1, fab2;
     Animation fabOpen, fabClose, rotateForward, rotateBackward;
-
     boolean isOpen = false; // by default it is false
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -59,7 +59,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 animateFab();
-                Toast.makeText(MainActivity.this, "list clicked", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(MainActivity.this,AdvisorListActivity.class);
+                startActivity(intent);
             }
         });
 

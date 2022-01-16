@@ -43,7 +43,7 @@
                     android:layout_height="match_parent"
                     android:background="@color/white"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/pfpadvisor" />
+                    android:src="@drawable/splash" />
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
@@ -53,7 +53,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginRight="20dp"
                 android:layout_marginBottom="10dp"
-                app:cardBackgroundColor="@color/buabu"
+                app:cardBackgroundColor="@color/white"
                 app:cardCornerRadius="20dp">
 
                 <LinearLayout
@@ -157,7 +157,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginRight="20dp"
                 android:layout_marginBottom="10dp"
-                app:cardBackgroundColor="@color/buabu"
+                app:cardBackgroundColor="@color/white"
                 app:cardCornerRadius="20dp">
 
 
@@ -232,7 +232,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginRight="20dp"
                 android:layout_marginBottom="10dp"
-                app:cardBackgroundColor="@color/buabu"
+                app:cardBackgroundColor="@color/white"
                 app:cardCornerRadius="20dp">
 
 
@@ -307,7 +307,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginRight="20dp"
                 android:layout_marginBottom="10dp"
-                app:cardBackgroundColor="@color/buabu"
+                app:cardBackgroundColor="@color/white"
                 app:cardCornerRadius="20dp">
 
 
@@ -382,7 +382,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginRight="20dp"
                 android:layout_marginBottom="10dp"
-                app:cardBackgroundColor="@color/buabu"
+                app:cardBackgroundColor="@color/white"
                 app:cardCornerRadius="20dp">
 
 
@@ -421,7 +421,9 @@
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
                 android:layout_marginBottom="40dp"
-                android:text="Save profile" />
+                android:text="Save profile"
+                android:backgroundTint="@color/gold"
+                android:textColor="@color/black"/>
 
         </LinearLayout>
 

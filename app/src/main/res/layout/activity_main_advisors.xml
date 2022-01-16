@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -9,291 +9,295 @@
     android:background="@color/white"
     tools:context=".MainAdvisorsActivity">
 
-    <LinearLayout
-        android:id="@+id/header"
-        android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:orientation="horizontal"
-        >
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="My Dashboard"
-            android:layout_marginTop="40dp"
-            android:layout_marginStart="30dp"
-            android:layout_weight="1"
-            android:textSize="27dp"
-            />
-
-        <de.hdodenhof.circleimageview.CircleImageView
-            android:layout_width="48dp"
-            android:layout_height="48dp"
-            android:src="@drawable/ic_notif_foreground"
-            app:civ_border_color="@color/gold"
-            android:layout_marginTop="39dp"
-            android:layout_weight="1"
-            app:civ_border_width="1dp"/>
-    </LinearLayout>
-
-
-    <LinearLayout
-        android:layout_width="match_parent"
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="35dp"
+        android:backgroundTint="@color/gold"
+        android:clickable="true"
+        app:fabCustomSize="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:maxImageSize="50dp"
+        app:srcCompat="@drawable/ic_baseline_directions_run_24" />
 
-        android:orientation="horizontal">
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@color/gold"
+        android:clickable="true"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/fab"
+        app:layout_constraintEnd_toEndOf="@+id/fab"
+        app:layout_constraintStart_toStartOf="@+id/fab"
+        app:srcCompat="@drawable/ic_baseline_account_circle_24" />
 
-        <de.hdodenhof.circleimageview.CircleImageView
-            android:layout_width="151dp"
-            android:layout_height="183dp"
-            android:layout_marginStart="20dp"
-            android:layout_weight="0.1744"
-            android:src="@drawable/splash"
-            app:civ_border_color="@color/white"
-            app:civ_border_width="3dp" />
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:backgroundTint="@color/gold"
+        android:clickable="true"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/fab1"
+        app:layout_constraintEnd_toEndOf="@+id/fab1"
+        app:layout_constraintStart_toStartOf="@+id/fab1"
+        app:srcCompat="@drawable/ic_action_rp" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:backgroundTint="@color/gold"
+        android:clickable="true"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/fab2"
+        app:layout_constraintEnd_toEndOf="@+id/fab2"
+        app:layout_constraintStart_toStartOf="@+id/fab2"
+        app:srcCompat="@drawable/ic_baseline_list_alt_24" />
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="My Dashboard"
+                android:layout_marginTop="40dp"
+                android:layout_marginStart="30dp"
+                android:layout_weight="1"
+                android:textSize="27dp"
+                />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/ic_notif_foreground"
+                app:civ_border_color="@color/gold"
+                android:layout_marginTop="39dp"
+                android:layout_weight="1"
+                app:civ_border_width="1dp"/>
+        </LinearLayout>
+
+
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:orientation="vertical">
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:layout_marginStart="7dp"
-                android:textSize="18sp"
-                android:text="Bapack quiz, M.T.Q"
-                />
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="5dp"
-                android:layout_marginStart="7dp"
-                android:textSize="14sp"
-                android:textColor="#747987"
-                android:text="Manajemen quiz"
-                />
+            android:layout_height="wrap_content"
+
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginStart="20dp"
+                android:layout_weight="0.1744"
+                android:src="@drawable/splash"
+                app:civ_border_color="@color/white"
+                app:civ_border_width="3dp" />
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:orientation="horizontal">
-
-                <ImageView
-                    android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="20dp"
-                    android:layout_weight="1"
-                    app:srcCompat="@android:drawable/star_big_on" />
-
-                <ImageView
-                    android:layout_width="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="7dp"
+                    android:textSize="18sp"
+                    android:text="Bapack quiz, M.T.Q"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    app:srcCompat="@android:drawable/star_big_on" />
-
-                <ImageView
-                    android:layout_width="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginStart="7dp"
+                    android:textSize="14sp"
+                    android:textColor="#747987"
+                    android:text="Manajemen quiz"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    app:srcCompat="@android:drawable/star_big_on" />
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
 
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    app:srcCompat="@android:drawable/star_big_on" />
-
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:layout_marginEnd="20dp"
-                    app:srcCompat="@android:drawable/btn_star_big_off" />
+                    <RatingBar
+                        android:id="@+id/ratingBar"
+                        style="?android:attr/rating"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:isIndicator="true"
+                        android:numStars="5"
+                        android:outlineSpotShadowColor="@color/black"
+                        android:rating="4"
+                        android:stepSize="0.1"
+                        android:theme="@style/RatingBar" />
+                </LinearLayout>
             </LinearLayout>
         </LinearLayout>
-    </LinearLayout>
 
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_marginTop="0dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginEnd="20dp"
-        android:background="@drawable/rounded_div_15radius">
-
-        <TextView
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textStyle="normal"
-            android:text="My balance :"
-            android:layout_marginTop="10dp"
-            android:textSize="18sp"
-            android:layout_marginStart="20dp"/>
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginEnd="10dp"
-            android:text="Rp. 9.000.000,-"
-            android:layout_marginBottom="20dp"
-            android:textSize="36sp"
-            android:textColor="@color/gold"
-            android:textAlignment="textEnd"/>
-    </LinearLayout>
-
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@drawable/rounded_div_15radius"
-        android:layout_marginTop="20dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginEnd="20dp"
-        android:orientation="vertical">
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textStyle="normal"
-            android:text="My stats :"
-            android:layout_marginTop="10dp"
-            android:textSize="18dp"
-            android:layout_marginStart="10dp"/>
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textStyle="normal"
-            android:text="Guidance given this week"
-            android:layout_marginTop="10dp"
-            android:textSize="14sp"
-            android:layout_marginStart="20dp"/>
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textStyle="normal"
-            android:text="12 Students"
-            android:layout_marginTop="10dp"
-            android:layout_marginEnd="10dp"
-            android:textSize="14sp"
-            android:textAlignment="textEnd"
-            android:layout_marginStart="20dp"/>
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textStyle="normal"
-            android:text="Total guidance given"
-            android:layout_marginTop="10dp"
-            android:textSize="14sp"
-            android:layout_marginStart="20dp"/>
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textStyle="normal"
-            android:text="420 Students"
-            android:layout_marginTop="10dp"
-            android:layout_marginEnd="10dp"
-            android:textSize="14sp"
-            android:textAlignment="textEnd"
-            android:layout_marginStart="20dp"/>
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textStyle="normal"
-            android:text="Income this week"
-            android:layout_marginTop="10dp"
-            android:textSize="14sp"
-            android:layout_marginStart="20dp"/>
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textStyle="normal"
-            android:text="Rp. 285.000.00"
-            android:layout_marginTop="10dp"
-            android:layout_marginEnd="10dp"
-            android:textSize="14sp"
-            android:textAlignment="textEnd"
-            android:layout_marginStart="20dp"/>
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textStyle="normal"
-            android:text="Total income"
-            android:layout_marginTop="10dp"
-            android:textSize="14sp"
-            android:layout_marginStart="20dp"/>
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textStyle="normal"
-            android:text="Rp. 9.975.000.00"
-            android:layout_marginTop="10dp"
-            android:layout_marginEnd="10dp"
-            android:layout_marginBottom="20dp"
-            android:textSize="14sp"
-            android:textAlignment="textEnd"
-            android:layout_marginStart="20dp"/>
-
-
-    </LinearLayout>
-
-            <androidx.cardview.widget.CardView
-                android:id="@+id/tumbal"
-                android:layout_width="wrap_content"
-                android:layout_height="40px"
-                android:layout_marginStart="20dp"
-                android:layout_marginTop="15dp"
-                android:layout_marginBottom="15dp"
-                app:cardBackgroundColor="#FFFFFF"
-                app:cardCornerRadius="20dp">
-            </androidx.cardview.widget.CardView>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
-        android:background="@drawable/rounded_botbar_div"
-        android:orientation="horizontal">
-
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@mipmap/ic_schedule"
-            android:textColor="@color/black"
-            android:layout_marginStart="20dp"
-            android:textSize="12sp"
-            android:text="Schedule" />
-
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@mipmap/ic_home"
-            android:textColor="@color/black"
+            android:orientation="vertical"
+            android:layout_marginTop="0dp"
             android:layout_marginStart="20dp"
             android:layout_marginEnd="20dp"
-            android:textSize="12sp"
-            android:text="Home" />
+            android:background="@drawable/rounded_div_15radius">
 
-        <Button
-            android:id="@+id/btnprofile"
-            android:layout_width="wrap_content"
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:text="My balance :"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"
+                android:layout_marginStart="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:text="Rp. 9.000.000,-"
+                android:layout_marginBottom="20dp"
+                android:textSize="36sp"
+                android:textColor="@color/gold"
+                android:textAlignment="textEnd"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@mipmap/ic_profile"
-            android:textColor="@color/black"
-            android:layout_marginEnd="10dp"
-            android:textSize="12sp"
-            android:text="Profile"/>
-    </LinearLayout>
+            android:background="@drawable/rounded_div_15radius"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:text="My stats :"
+                android:layout_marginTop="10dp"
+                android:textSize="18dp"
+                android:layout_marginStart="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:text="Guidance given this week"
+                android:layout_marginTop="10dp"
+                android:textSize="14sp"
+                android:layout_marginStart="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:text="12 Students"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:textSize="14sp"
+                android:textAlignment="textEnd"
+                android:layout_marginStart="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:text="Total guidance given"
+                android:layout_marginTop="10dp"
+                android:textSize="14sp"
+                android:layout_marginStart="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:text="420 Students"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:textSize="14sp"
+                android:textAlignment="textEnd"
+                android:layout_marginStart="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:text="Income this week"
+                android:layout_marginTop="10dp"
+                android:textSize="14sp"
+                android:layout_marginStart="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:text="Rp. 285.000.00"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:textSize="14sp"
+                android:textAlignment="textEnd"
+                android:layout_marginStart="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:text="Total income"
+                android:layout_marginTop="10dp"
+                android:textSize="14sp"
+                android:layout_marginStart="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:text="Rp. 9.975.000.00"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="20dp"
+                android:textSize="14sp"
+                android:textAlignment="textEnd"
+                android:layout_marginStart="20dp"/>
 
 
-</LinearLayout>
+        </LinearLayout>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/tumbal"
+            android:layout_width="wrap_content"
+            android:layout_height="40px"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            app:cardBackgroundColor="#FFFFFF"
+            app:cardCornerRadius="20dp">
+        </androidx.cardview.widget.CardView>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -24,13 +24,13 @@ Button btnList, btnDashboard;
         btnList = findViewById(R.id.myconsultationlist);
         btnDashboard = findViewById(R.id.mydashboard);
 
-//        btnList.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Intent intent = new Intent(getApplicationContext(), ConsultationList.class);
-//                startActivity(intent);
-//            }
-//        });
+        btnList.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), AdvisorListActivity.class);
+                startActivity(intent);
+            }
+        });
 
         btnDashboard.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -54,7 +54,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginRight="20dp"
                 android:layout_marginBottom="10dp"
-                app:cardBackgroundColor="@color/buabu"
+                app:cardBackgroundColor="@color/white"
                 app:cardCornerRadius="20dp">
 
                 <LinearLayout
@@ -163,7 +163,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginRight="20dp"
                 android:layout_marginBottom="10dp"
-                app:cardBackgroundColor="@color/buabu"
+                app:cardBackgroundColor="@color/white"
                 app:cardCornerRadius="20dp">
 
 
@@ -241,7 +241,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginRight="20dp"
                 android:layout_marginBottom="10dp"
-                app:cardBackgroundColor="@color/buabu"
+                app:cardBackgroundColor="@color/white"
                 app:cardCornerRadius="20dp">
 
 
@@ -318,7 +318,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginRight="20dp"
                 android:layout_marginBottom="10dp"
-                app:cardBackgroundColor="@color/buabu"
+                app:cardBackgroundColor="@color/white"
                 app:cardCornerRadius="20dp">
 
 
@@ -356,6 +356,7 @@
                 android:layout_marginRight="20dp"
                 android:layout_marginBottom="40dp"
                 android:backgroundTint="@color/gold"
+                android:textColor="@color/black"
                 android:text="Edit profile" />
 
         </LinearLayout>
