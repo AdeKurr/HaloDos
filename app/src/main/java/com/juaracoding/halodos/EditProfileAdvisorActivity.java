@@ -34,6 +34,8 @@ public class EditProfileAdvisorActivity extends AppCompatActivity {
         Intent intent = new Intent(getApplicationContext(), ImageSelectActivity.class);
         intent.putExtra(ImageSelectActivity.FLAG_CAMERA, true);//default is true
         intent.putExtra(ImageSelectActivity.FLAG_GALLERY, true);//default is true
+        intent.putExtra(ImageSelectActivity.FLAG_GALLERY, true);//default is true
+        intent.putExtra(ImageSelectActivity.FLAG_CROP, true);//default is false
         startActivityForResult(intent, 1213);
     }
 
