@@ -4,16 +4,21 @@ import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
+import android.app.Activity;
 import android.content.Intent;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 
 import in.mayanknagwanshi.imagepicker.ImageSelectActivity;
 
 public class ProfileUserActivity extends AppCompatActivity {
     Button btnEditProfileUser;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,12 +39,5 @@ public class ProfileUserActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-    }
-
-    public void imageClick(View view) {
-        Intent intent = new Intent(getApplicationContext(), ImageSelectActivity.class);
-        intent.putExtra(ImageSelectActivity.FLAG_CAMERA, true);//default is true
-        intent.putExtra(ImageSelectActivity.FLAG_GALLERY, true);//default is true
-        startActivityForResult(intent, 1213);
     }
 }

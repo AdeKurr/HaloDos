@@ -16,14 +16,14 @@ import android.widget.ImageView;
 import in.mayanknagwanshi.imagepicker.ImageSelectActivity;
 
 public class EditProfileUserActivity extends AppCompatActivity {
-    ImageView imageView;
+    ImageView roundedImageView;
     String filePath;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_edit_profile_user);
-        imageView = findViewById(R.id.imageView);
+        roundedImageView = findViewById(R.id.roundedImageView);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         ActionBar ab = getSupportActionBar();
@@ -43,7 +43,7 @@ public class EditProfileUserActivity extends AppCompatActivity {
         if (requestCode == 1213 && resultCode == Activity.RESULT_OK) {
             filePath = data.getStringExtra(ImageSelectActivity.RESULT_FILE_PATH);
             Bitmap selectedImage = BitmapFactory.decodeFile(filePath);
-            imageView.setImageBitmap(selectedImage);
+            roundedImageView.setImageBitmap(selectedImage);
         }
     }
 

@@ -37,10 +37,4 @@ public class ProfileAdvisorActivity extends AppCompatActivity {
             }
         });
     }
-    public void imageClick(View view){
-        Intent intent = new Intent(getApplicationContext(), ImageSelectActivity.class);
-        intent.putExtra(ImageSelectActivity.FLAG_CAMERA, true);//default is true
-        intent.putExtra(ImageSelectActivity.FLAG_GALLERY, true);//default is true
-        startActivityForResult(intent, 1213);
-    }
 }
