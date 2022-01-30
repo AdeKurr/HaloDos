@@ -68,14 +68,14 @@ public class ConsultingUserListActivity extends AppCompatActivity {
 
     public void getDataUpcomingConsultingUserList() {
         upcomingConsultingUserArrayList = new ArrayList<>();
-        upcomingConsultingUserArrayList.add(new ConsultationData(R.drawable.spiderman, "Abang Tali Jemuran", "31 Januari 2022", "4 PM - 5 PM"));
+        upcomingConsultingUserArrayList.add(new ConsultationData(R.drawable.adam, "Adam Abdillah", "3 Februari 2022", "4 PM - 5 PM"));
     }
 
     public void getDataFinishedConsultingUserList() {
         finishedConsultingUserDataArrayList = new ArrayList<>();
-        finishedConsultingUserDataArrayList.add(new ConsultationData(R.drawable.ironman, "Tukang Setrika", "10 Desember 2012", "4 PM - 5 PM"));
-        finishedConsultingUserDataArrayList.add(new ConsultationData(R.drawable.thor, "Kuli Bangunan", "31 Februari 1942", "1 AM - 2 AM"));
-        finishedConsultingUserDataArrayList.add(new ConsultationData(R.drawable.widow, "Janda", "1 Muharram 1443 H", "10 AM - 11 AM"));
+        finishedConsultingUserDataArrayList.add(new ConsultationData(R.drawable.brata, "Brata Blessza Cham", "19 Januari 2022", "4 PM - 5 PM"));
+        finishedConsultingUserDataArrayList.add(new ConsultationData(R.drawable.ian, "Herdiansyah", "15 Januari 2022", "1 AM - 2 AM"));
+        finishedConsultingUserDataArrayList.add(new ConsultationData(R.drawable.mufqi, "Mufqi Harits", "3 Januari 2022 H", "10 AM - 11 AM"));
     }
 
     public void startTimePicker (View view){

@@ -50,7 +50,7 @@
             android:layout_height="wrap_content"
             android:textAllCaps="false"
             android:layout_weight="1"
-            android:text="Adivsor" />
+            android:text="Advisor" />
 
     </com.google.android.material.button.MaterialButtonToggleGroup>
 

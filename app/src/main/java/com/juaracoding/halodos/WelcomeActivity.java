@@ -43,7 +43,7 @@ public class WelcomeActivity extends AppCompatActivity {
 
         setContentView(R.layout.activity_home);
         btnLogin = findViewById(R.id.btnStarted);
-        textView = findViewById(R.id.judul);
+//        textView = findViewById(R.id.judul);
         carouselView = findViewById(R.id.carouselView);
         carouselView.setPageCount(sampleImages.length);
         carouselView.setPageCount(sampleText.length);

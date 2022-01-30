@@ -27,10 +27,11 @@
         android:orientation="vertical">
 
         <de.hdodenhof.circleimageview.CircleImageView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_marginLeft="55dp"
             android:layout_marginTop="55px"
-            android:src="@drawable/splash"
+            android:src="@drawable/evi"
             app:civ_border_color="#FFA500"
             app:civ_border_width="17px" />
 
@@ -39,7 +40,7 @@
             android:layout_height="67dp"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="10dp"
-            android:text="Bapack Quiz, M.T.Q."
+            android:text="Evi Putri Soekarni"
             android:textAlignment="center"
             android:textSize="24sp"
             android:textStyle="bold" />
@@ -47,7 +48,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="-50dp"
-            android:text="Manajemen perquizan"
+            android:text="Kedokteran"
             android:textColor="#747987"
             android:textAlignment="center"
             android:textSize="18sp" />
@@ -70,7 +71,7 @@
                     android:isIndicator="true"
                     android:numStars="5"
                     android:outlineSpotShadowColor="@color/black"
-                    android:rating="4"
+                    android:rating="4.4"
                     android:stepSize="0.1"
                     android:textAlignment="gravity"
                     android:theme="@style/RatingBar"
@@ -86,39 +87,18 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:text="Leverage agile frameworks to provide a robust synopsis
-for high level overviews. Iterative approaches to
-corporate strategy foster collaborative thinking to
-further the overall value proposition."
-            android:layout_marginTop="20dp"
-            android:textAlignment="center"
-            android:textSize="15sp" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
             android:text="Rp. 25.000,00"
             android:layout_marginTop="20dp"
             android:textAlignment="center"
             android:textSize="18sp" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:layout_marginStart="65dp"
-            android:drawableStart="@android:drawable/sym_contact_card"
-            android:text="   5 tahun pengalaman ngasi quiz"
-            android:textAlignment="center"
-            android:textSize="15sp" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:layout_marginStart="60dp"
-            android:drawableStart="@android:drawable/sym_contact_card"
-            android:text="   Alumni lomba mtq seJabodetabek"
+            android:layout_marginStart="85dp"
+            android:text="Affiliate: Klinik Sumber Waras"
             android:textAlignment="center"
             android:textSize="15sp" />
     </LinearLayout>

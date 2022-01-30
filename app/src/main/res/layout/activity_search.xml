@@ -4,40 +4,40 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:background="@color/white"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
-<!--    <LinearLayout-->
-<!--        android:id="@+id/header"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="100dp"-->
-<!--        android:orientation="vertical"-->
-<!--        android:background="@drawable/rounded_div"-->
-<!--        >-->
+    <!--    <LinearLayout-->
+    <!--        android:id="@+id/header"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="100dp"-->
+    <!--        android:orientation="vertical"-->
+    <!--        android:background="@drawable/rounded_div"-->
+    <!--        >-->
 
-<!--        <TextView-->
-<!--            android:id="@+id/greetings"-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:layout_marginStart="20dp"-->
-<!--            android:layout_marginTop="40dp"-->
-<!--            android:fontFamily="sans-serif-black"-->
-<!--            android:text="Welcome,"-->
-<!--            android:textSize="14sp"-->
-<!--            android:typeface="normal" />-->
+    <!--        <TextView-->
+    <!--            android:id="@+id/greetings"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_marginStart="20dp"-->
+    <!--            android:layout_marginTop="40dp"-->
+    <!--            android:fontFamily="sans-serif-black"-->
+    <!--            android:text="Welcome,"-->
+    <!--            android:textSize="14sp"-->
+    <!--            android:typeface="normal" />-->
 
-<!--        <TextView-->
-<!--            android:id="@+id/username"-->
-<!--            android:layout_width="143dp"-->
-<!--            android:layout_height="38dp"-->
-<!--            android:layout_marginStart="20dp"-->
-<!--            android:layout_marginTop="-1dp"-->
-<!--            android:fontFamily="sans-serif-black"-->
-<!--            android:text="Username"-->
-<!--            android:textSize="24sp"-->
-<!--            android:typeface="normal" />-->
-<!--    </LinearLayout>-->
+    <!--        <TextView-->
+    <!--            android:id="@+id/username"-->
+    <!--            android:layout_width="143dp"-->
+    <!--            android:layout_height="38dp"-->
+    <!--            android:layout_marginStart="20dp"-->
+    <!--            android:layout_marginTop="-1dp"-->
+    <!--            android:fontFamily="sans-serif-black"-->
+    <!--            android:text="Username"-->
+    <!--            android:textSize="24sp"-->
+    <!--            android:typeface="normal" />-->
+    <!--    </LinearLayout>-->
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbarSearch"
@@ -61,8 +61,8 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
                 android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
                 android:layout_marginEnd="20dp"
                 android:orientation="horizontal">
 
@@ -88,121 +88,119 @@
             </LinearLayout>
 
 
+            <!--            <LinearLayout-->
+            <!--                android:id="@+id/lineTitlerekomenTopics"-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_marginTop="10dp"-->
+            <!--                android:orientation="horizontal"-->
+            <!--                >-->
 
-<!--            <LinearLayout-->
-<!--                android:id="@+id/lineTitlerekomenTopics"-->
-<!--                android:layout_width="match_parent"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:layout_marginTop="10dp"-->
-<!--                android:orientation="horizontal"-->
-<!--                >-->
+            <!--                <TextView-->
+            <!--                    android:id="@+id/RecomendedCategory"-->
+            <!--                    android:layout_width="180dp"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:layout_marginStart="20dp"-->
+            <!--                    android:fontFamily="sans-serif-black"-->
+            <!--                    android:text="Recomended Category"-->
+            <!--                    android:textSize="16sp"-->
+            <!--                    android:typeface="normal"-->
+            <!--                    />-->
 
-<!--                <TextView-->
-<!--                    android:id="@+id/RecomendedCategory"-->
-<!--                    android:layout_width="180dp"-->
-<!--                    android:layout_height="wrap_content"-->
-<!--                    android:layout_marginStart="20dp"-->
-<!--                    android:fontFamily="sans-serif-black"-->
-<!--                    android:text="Recomended Category"-->
-<!--                    android:textSize="16sp"-->
-<!--                    android:typeface="normal"-->
-<!--                    />-->
+            <!--                <TextView-->
+            <!--                    android:id="@+id/btnKePencarian2"-->
+            <!--                    android:layout_width="wrap_content"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:layout_marginStart="400px"-->
+            <!--                    android:onClick="textArrowOnclicked"-->
+            <!--                    android:textColor="#E49402"-->
+            <!--                    android:text=">"-->
+            <!--                    android:textSize="19sp"-->
+            <!--                    tools:ignore="TouchTargetSizeCheck" />-->
+            <!--            </LinearLayout>-->
 
-<!--                <TextView-->
-<!--                    android:id="@+id/btnKePencarian2"-->
-<!--                    android:layout_width="wrap_content"-->
-<!--                    android:layout_height="wrap_content"-->
-<!--                    android:layout_marginStart="400px"-->
-<!--                    android:onClick="textArrowOnclicked"-->
-<!--                    android:textColor="#E49402"-->
-<!--                    android:text=">"-->
-<!--                    android:textSize="19sp"-->
-<!--                    tools:ignore="TouchTargetSizeCheck" />-->
-<!--            </LinearLayout>-->
+            <!--            <HorizontalScrollView-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                tools:ignore="SpeakableTextPresentCheck">-->
 
-<!--            <HorizontalScrollView-->
-<!--                android:layout_width="match_parent"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                tools:ignore="SpeakableTextPresentCheck">-->
+            <!--                <LinearLayout-->
+            <!--                    android:id="@+id/linearLayout3"-->
+            <!--                    android:layout_width="match_parent"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:orientation="horizontal"-->
+            <!--                    app:layout_constraintEnd_toEndOf="parent"-->
+            <!--                    app:layout_constraintHorizontal_bias="0.358"-->
+            <!--                    app:layout_constraintStart_toStartOf="parent"-->
+            <!--                    app:layout_constraintTop_toBottomOf="@+id/RecomendedTopics">-->
 
-<!--                <LinearLayout-->
-<!--                    android:id="@+id/linearLayout3"-->
-<!--                    android:layout_width="match_parent"-->
-<!--                    android:layout_height="wrap_content"-->
-<!--                    android:orientation="horizontal"-->
-<!--                    app:layout_constraintEnd_toEndOf="parent"-->
-<!--                    app:layout_constraintHorizontal_bias="0.358"-->
-<!--                    app:layout_constraintStart_toStartOf="parent"-->
-<!--                    app:layout_constraintTop_toBottomOf="@+id/RecomendedTopics">-->
+            <!--                    <androidx.cardview.widget.CardView-->
+            <!--                        android:id="@+id/topCate1"-->
+            <!--                        android:layout_width="92dp"-->
+            <!--                        android:layout_height="73dp"-->
+            <!--                        android:layout_marginStart="20dp"-->
+            <!--                        android:layout_marginTop="5dp"-->
+            <!--                        android:backgroundTint="#D9D5D5"-->
+            <!--                        android:layout_marginBottom="5dp"-->
+            <!--                        app:cardCornerRadius="20dp" />-->
 
-<!--                    <androidx.cardview.widget.CardView-->
-<!--                        android:id="@+id/topCate1"-->
-<!--                        android:layout_width="92dp"-->
-<!--                        android:layout_height="73dp"-->
-<!--                        android:layout_marginStart="20dp"-->
-<!--                        android:layout_marginTop="5dp"-->
-<!--                        android:backgroundTint="#D9D5D5"-->
-<!--                        android:layout_marginBottom="5dp"-->
-<!--                        app:cardCornerRadius="20dp" />-->
+            <!--                    <androidx.cardview.widget.CardView-->
+            <!--                        android:id="@+id/topCate2"-->
+            <!--                        android:layout_width="92dp"-->
+            <!--                        android:layout_height="73dp"-->
+            <!--                        android:layout_marginStart="20dp"-->
+            <!--                        android:layout_marginTop="5dp"-->
+            <!--                        android:backgroundTint="#D9D5D5"-->
+            <!--                        android:layout_marginBottom="5dp"-->
+            <!--                        app:cardCornerRadius="20dp">-->
 
-<!--                    <androidx.cardview.widget.CardView-->
-<!--                        android:id="@+id/topCate2"-->
-<!--                        android:layout_width="92dp"-->
-<!--                        android:layout_height="73dp"-->
-<!--                        android:layout_marginStart="20dp"-->
-<!--                        android:layout_marginTop="5dp"-->
-<!--                        android:backgroundTint="#D9D5D5"-->
-<!--                        android:layout_marginBottom="5dp"-->
-<!--                        app:cardCornerRadius="20dp">-->
+            <!--                    </androidx.cardview.widget.CardView>-->
 
-<!--                    </androidx.cardview.widget.CardView>-->
+            <!--                    <androidx.cardview.widget.CardView-->
+            <!--                        android:id="@+id/topCate3"-->
+            <!--                        android:layout_width="92dp"-->
+            <!--                        android:layout_height="73dp"-->
+            <!--                        android:layout_marginStart="20dp"-->
+            <!--                        android:layout_marginTop="5dp"-->
+            <!--                        android:backgroundTint="#D9D5D5"-->
+            <!--                        android:layout_marginBottom="5dp"-->
+            <!--                        app:cardCornerRadius="20dp">-->
 
-<!--                    <androidx.cardview.widget.CardView-->
-<!--                        android:id="@+id/topCate3"-->
-<!--                        android:layout_width="92dp"-->
-<!--                        android:layout_height="73dp"-->
-<!--                        android:layout_marginStart="20dp"-->
-<!--                        android:layout_marginTop="5dp"-->
-<!--                        android:backgroundTint="#D9D5D5"-->
-<!--                        android:layout_marginBottom="5dp"-->
-<!--                        app:cardCornerRadius="20dp">-->
+            <!--                    </androidx.cardview.widget.CardView>-->
 
-<!--                    </androidx.cardview.widget.CardView>-->
+            <!--                    <androidx.cardview.widget.CardView-->
+            <!--                        android:id="@+id/topCate4"-->
+            <!--                        android:layout_width="92dp"-->
+            <!--                        android:layout_height="73dp"-->
+            <!--                        android:backgroundTint="#D9D5D5"-->
+            <!--                        android:layout_marginStart="20dp"-->
+            <!--                        android:layout_marginTop="5dp"-->
+            <!--                        android:layout_marginBottom="5dp"-->
+            <!--                        app:cardCornerRadius="20dp">-->
 
-<!--                    <androidx.cardview.widget.CardView-->
-<!--                        android:id="@+id/topCate4"-->
-<!--                        android:layout_width="92dp"-->
-<!--                        android:layout_height="73dp"-->
-<!--                        android:backgroundTint="#D9D5D5"-->
-<!--                        android:layout_marginStart="20dp"-->
-<!--                        android:layout_marginTop="5dp"-->
-<!--                        android:layout_marginBottom="5dp"-->
-<!--                        app:cardCornerRadius="20dp">-->
+            <!--                    </androidx.cardview.widget.CardView>-->
 
-<!--                    </androidx.cardview.widget.CardView>-->
+            <!--                    <androidx.cardview.widget.CardView-->
+            <!--                        android:id="@+id/topCate5"-->
+            <!--                        android:layout_width="92dp"-->
+            <!--                        android:layout_height="73dp"-->
+            <!--                        android:layout_marginStart="20dp"-->
+            <!--                        android:layout_marginTop="5dp"-->
+            <!--                        android:backgroundTint="#D9D5D5"-->
+            <!--                        android:layout_marginBottom="5dp"-->
+            <!--                        app:cardCornerRadius="20dp">-->
 
-<!--                    <androidx.cardview.widget.CardView-->
-<!--                        android:id="@+id/topCate5"-->
-<!--                        android:layout_width="92dp"-->
-<!--                        android:layout_height="73dp"-->
-<!--                        android:layout_marginStart="20dp"-->
-<!--                        android:layout_marginTop="5dp"-->
-<!--                        android:backgroundTint="#D9D5D5"-->
-<!--                        android:layout_marginBottom="5dp"-->
-<!--                        app:cardCornerRadius="20dp">-->
+            <!--                    </androidx.cardview.widget.CardView>-->
+            <!--                </LinearLayout>-->
 
-<!--                    </androidx.cardview.widget.CardView>-->
-<!--                </LinearLayout>-->
-
-<!--            </HorizontalScrollView>-->
+            <!--            </HorizontalScrollView>-->
 
             <LinearLayout
                 android:id="@+id/lineTitlerekomenAdvs"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:orientation="horizontal"
-                >
+                android:orientation="horizontal">
 
                 <TextView
                     android:id="@+id/PopularAdvs"
@@ -217,12 +215,354 @@
             </LinearLayout>
 
             <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:scrollbars="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <androidx.cardview.widget.CardView
+
+                        android:layout_width="122dp"
+                        android:layout_height="121dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="25dp"
+                        android:layout_marginBottom="15dp"
+                        android:alwaysDrawnWithCache="false"
+                        android:animateLayoutChanges="false"
+                        android:animationCache="false"
+                        android:clickable="true"
+                        android:elevation="128dp"
+                        android:fadeScrollbars="true"
+                        android:layoutMode="clipBounds"
+                        app:cardBackgroundColor="#FFFFFF"
+                        app:cardCornerRadius="20dp"
+                        tools:ignore="SpeakableTextPresentCheck">
+
+                        <ImageButton
+                            android:id="@+id/btnDetailDos"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/evi" />
+
+                    </androidx.cardview.widget.CardView>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="20dp"
+                            android:text="Evi Putri Soekarni"
+                            android:textSize="21sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:text="Rating: 89"
+                            android:textAlignment="textStart"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:text="Total consultation: 31"
+                            android:textAlignment="textStart"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:text="Price: Rp. 25.000,-"
+                            android:textAlignment="textStart"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:scrollbars="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <androidx.cardview.widget.CardView
+
+                        android:layout_width="122dp"
+                        android:layout_height="121dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="25dp"
+                        android:layout_marginBottom="15dp"
+                        android:alwaysDrawnWithCache="false"
+                        android:animateLayoutChanges="false"
+                        android:animationCache="false"
+                        android:clickable="true"
+                        android:elevation="128dp"
+                        android:fadeScrollbars="true"
+                        android:layoutMode="clipBounds"
+                        app:cardBackgroundColor="#FFFFFF"
+                        app:cardCornerRadius="20dp"
+                        tools:ignore="SpeakableTextPresentCheck">
+
+                        <ImageButton
+
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:paddingTop="10dp"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/jono" />
+
+                    </androidx.cardview.widget.CardView>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="20dp"
+                            android:text="Jono Sujono"
+                            android:textSize="21sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:text="Rating: 78"
+                            android:textAlignment="textStart"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:text="Total consultation: 52"
+                            android:textAlignment="textStart"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:text="Price: Rp. 25.000,-"
+                            android:textAlignment="textStart"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:scrollbars="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <androidx.cardview.widget.CardView
+
+                        android:layout_width="122dp"
+                        android:layout_height="121dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="25dp"
+                        android:layout_marginBottom="15dp"
+                        android:alwaysDrawnWithCache="false"
+                        android:animateLayoutChanges="false"
+                        android:animationCache="false"
+                        android:clickable="true"
+                        android:elevation="128dp"
+                        android:fadeScrollbars="true"
+                        android:layoutMode="clipBounds"
+                        app:cardBackgroundColor="#FFFFFF"
+                        app:cardCornerRadius="20dp"
+                        tools:ignore="SpeakableTextPresentCheck">
+
+                        <ImageButton
+
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:maxWidth="150dp"
+                            android:maxHeight="150dp"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/siddiq" />
+
+                    </androidx.cardview.widget.CardView>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="20dp"
+                            android:text="Jajang Surajang"
+                            android:textSize="21sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:text="Rating: 69"
+                            android:textAlignment="textStart"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:text="Total consultation: 76"
+                            android:textAlignment="textStart"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:text="Price: Rp. 25.000,-"
+                            android:textAlignment="textStart"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:scrollbars="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <androidx.cardview.widget.CardView
+
+                        android:layout_width="122dp"
+                        android:layout_height="121dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="25dp"
+                        android:layout_marginBottom="15dp"
+                        android:alwaysDrawnWithCache="false"
+                        android:animateLayoutChanges="false"
+                        android:animationCache="false"
+                        android:clickable="true"
+                        android:elevation="128dp"
+                        android:fadeScrollbars="true"
+                        android:layoutMode="clipBounds"
+                        app:cardBackgroundColor="#FFFFFF"
+                        app:cardCornerRadius="20dp"
+                        tools:ignore="SpeakableTextPresentCheck">
+
+                        <ImageButton
+
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/romi" />
+
+                    </androidx.cardview.widget.CardView>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="20dp"
+                            android:text="Romi Rafaela"
+                            android:textSize="21sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:text="Rating: 63"
+                            android:textAlignment="textStart"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:text="Total consultation: 58"
+                            android:textAlignment="textStart"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:text="Price: Rp. 25.000,-"
+                            android:textAlignment="textStart"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
                 android:id="@+id/linearLayout4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:scrollbars="horizontal"
+                android:layout_marginTop="10dp"
                 android:orientation="vertical"
-                android:layout_marginTop="10dp">
+                android:scrollbars="horizontal">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -248,169 +588,54 @@
                         tools:ignore="SpeakableTextPresentCheck">
 
                         <ImageButton
-                            android:id="@+id/btnDetailDos"
                             android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
+                            android:layout_height="match_parent"
+                            android:scaleType="fitXY"
                             android:src="@drawable/splash" />
 
                     </androidx.cardview.widget.CardView>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Bapack Quiziss"
-                        android:layout_marginTop="20dp"
-                        android:textSize="21sp"
-                        android:layout_marginStart="10dp"/>
 
-                    <TextView
+                    <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="130dp"
-                        android:layout_marginStart="-120dp"
-                        android:layout_marginTop="50dp"
-                        android:textAlignment="textStart"
-                        android:text="Merupakan bapack bapack yang tempat siaran quiznya bisa berpindah pindah, identik dengan saklar lampu yang melayang"
-                        android:textSize="14sp" />
-                </LinearLayout>
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal">
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
 
-                    <androidx.cardview.widget.CardView
-                        android:id="@+id/topDos2"
-                        android:layout_width="122dp"
-                        android:layout_height="121dp"
-                        android:layout_marginStart="20dp"
-                        android:layout_marginTop="25dp"
-                        android:layout_marginBottom="15dp"
-                        android:alwaysDrawnWithCache="false"
-                        android:animateLayoutChanges="false"
-                        android:animationCache="false"
-                        android:clickable="true"
-                        android:elevation="128dp"
-                        android:fadeScrollbars="true"
-                        android:layoutMode="clipBounds"
-                        app:cardBackgroundColor="#FFFFFF"
-                        app:cardCornerRadius="20dp"
-                        tools:ignore="SpeakableTextPresentCheck">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="20dp"
+                            android:text="Septiaji Fajar"
+                            android:textSize="21sp" />
 
-                        <ImageButton
-                            android:id="@+id/btnDetailDos2"
+                        <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:src="@drawable/splash" />
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:text="Rating: 61"
+                            android:textAlignment="textStart"
+                            android:textSize="14sp" />
 
-                    </androidx.cardview.widget.CardView>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Bapack Quiziss"
-                        android:layout_marginTop="20dp"
-                        android:textSize="21sp"
-                        android:layout_marginStart="10dp"/>
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="130dp"
-                        android:layout_marginStart="-120dp"
-                        android:layout_marginTop="50dp"
-                        android:textAlignment="textStart"
-                        android:text="Merupakan bapack bapack yang tempat siaran quiznya bisa berpindah pindah, identik dengan saklar lampu yang melayang"
-                        android:textSize="14sp" />
-                </LinearLayout>
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal">
-
-                    <androidx.cardview.widget.CardView
-                        android:id="@+id/topDos3"
-                        android:layout_width="122dp"
-                        android:layout_height="121dp"
-                        android:layout_marginStart="20dp"
-                        android:layout_marginTop="25dp"
-                        android:layout_marginBottom="15dp"
-                        android:alwaysDrawnWithCache="false"
-                        android:animateLayoutChanges="false"
-                        android:animationCache="false"
-                        android:clickable="true"
-                        android:elevation="128dp"
-                        android:fadeScrollbars="true"
-                        android:layoutMode="clipBounds"
-                        app:cardBackgroundColor="#FFFFFF"
-                        app:cardCornerRadius="20dp"
-                        tools:ignore="SpeakableTextPresentCheck">
-
-                        <ImageButton
-                            android:id="@+id/btnDetailDos3"
+                        <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:src="@drawable/splash" />
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:text="Total consultation: 22"
+                            android:textAlignment="textStart"
+                            android:textSize="14sp" />
 
-                    </androidx.cardview.widget.CardView>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Bapack Quiziss"
-                        android:layout_marginTop="20dp"
-                        android:textSize="21sp"
-                        android:layout_marginStart="10dp"/>
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="130dp"
-                        android:layout_marginStart="-120dp"
-                        android:layout_marginTop="50dp"
-                        android:textAlignment="textStart"
-                        android:text="Merupakan bapack bapack yang tempat siaran quiznya bisa berpindah pindah, identik dengan saklar lampu yang melayang"
-                        android:textSize="14sp" />
-                </LinearLayout>
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal">
-
-                    <androidx.cardview.widget.CardView
-                        android:id="@+id/topDos4"
-                        android:layout_width="122dp"
-                        android:layout_height="121dp"
-                        android:layout_marginStart="20dp"
-                        android:layout_marginTop="25dp"
-                        android:layout_marginBottom="15dp"
-                        android:alwaysDrawnWithCache="false"
-                        android:animateLayoutChanges="false"
-                        android:animationCache="false"
-                        android:clickable="true"
-                        android:elevation="128dp"
-                        android:fadeScrollbars="true"
-                        android:layoutMode="clipBounds"
-                        app:cardBackgroundColor="#FFFFFF"
-                        app:cardCornerRadius="20dp"
-                        tools:ignore="SpeakableTextPresentCheck">
-
-                        <ImageButton
-                            android:id="@+id/btnDetailDos4"
+                        <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:src="@drawable/splash" />
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:text="Price: Rp. 25.000,-"
+                            android:textAlignment="textStart"
+                            android:textSize="14sp" />
+                    </LinearLayout>
 
-                    </androidx.cardview.widget.CardView>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Bapack Quiziss"
-                        android:layout_marginTop="20dp"
-                        android:textSize="21sp"
-                        android:layout_marginStart="10dp"/>
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="130dp"
-                        android:layout_marginStart="-120dp"
-                        android:layout_marginTop="50dp"
-                        android:textAlignment="textStart"
-                        android:text="Merupakan bapack bapack yang tempat siaran quiznya bisa berpindah pindah, identik dengan saklar lampu yang melayang"
-                        android:textSize="14sp" />
                 </LinearLayout>
 
             </LinearLayout>
@@ -423,47 +648,46 @@
                 android:layout_marginTop="15dp"
                 android:layout_marginBottom="15dp"
                 app:cardBackgroundColor="#FFFFFF"
-                app:cardCornerRadius="20dp">
-            </androidx.cardview.widget.CardView>
+                app:cardCornerRadius="20dp"></androidx.cardview.widget.CardView>
 
         </LinearLayout>
 
     </ScrollView>
 
-<!--    <LinearLayout-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_marginTop="-45dp"-->
-<!--        android:background="@drawable/rounded_botbar_div"-->
-<!--        android:orientation="horizontal">-->
+    <!--    <LinearLayout-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginTop="-45dp"-->
+    <!--        android:background="@drawable/rounded_botbar_div"-->
+    <!--        android:orientation="horizontal">-->
 
-<!--        <Button-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:background="@mipmap/ic_schedule"-->
-<!--            android:textColor="@color/black"-->
-<!--            android:layout_marginStart="20dp"-->
-<!--            android:textSize="12sp"-->
-<!--            android:text="Schedule" />-->
+    <!--        <Button-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:background="@mipmap/ic_schedule"-->
+    <!--            android:textColor="@color/black"-->
+    <!--            android:layout_marginStart="20dp"-->
+    <!--            android:textSize="12sp"-->
+    <!--            android:text="Schedule" />-->
 
-<!--        <Button-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:background="@mipmap/ic_home"-->
-<!--            android:textColor="@color/black"-->
-<!--            android:layout_marginStart="20dp"-->
-<!--            android:layout_marginEnd="20dp"-->
-<!--            android:textSize="12sp"-->
-<!--            android:text="Home" />-->
+    <!--        <Button-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:background="@mipmap/ic_home"-->
+    <!--            android:textColor="@color/black"-->
+    <!--            android:layout_marginStart="20dp"-->
+    <!--            android:layout_marginEnd="20dp"-->
+    <!--            android:textSize="12sp"-->
+    <!--            android:text="Home" />-->
 
-<!--        <Button-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:background="@mipmap/ic_profile"-->
-<!--            android:textColor="@color/black"-->
-<!--            android:layout_marginEnd="10dp"-->
-<!--            android:textSize="12sp"-->
-<!--            android:text="Profile"/>-->
-<!--    </LinearLayout>-->
+    <!--        <Button-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:background="@mipmap/ic_profile"-->
+    <!--            android:textColor="@color/black"-->
+    <!--            android:layout_marginEnd="10dp"-->
+    <!--            android:textSize="12sp"-->
+    <!--            android:text="Profile"/>-->
+    <!--    </LinearLayout>-->
 
 </LinearLayout>

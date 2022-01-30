@@ -15,14 +15,6 @@
         android:layout_height="128dp"
         app:srcCompat="@drawable/logo" />
 
-    <TextView
-        android:id="@+id/judul"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="TITLE"
-        android:textAlignment="center"
-        android:textSize="20sp" />
-
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
